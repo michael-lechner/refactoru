@@ -1,0 +1,20 @@
+body {
+  font: 14px "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#applications{
+    margin-top: 50px;
+}
+
+#applications li:first-child{
+    background-color: #000;
+    color: #fff;
+}
+
+#applications li:not(:first-child){
+    margin-left: 30px;
+}
