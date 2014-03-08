@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="steez.css">
+  <title>Demo</title>
+</head>
+<body>
+<header>killer games</header>
+<div id="product-container">
+
+        
+
+</div>
+
+<div class="wish-list">
+	<h2>Wish List</h2>
+	<ul id="wish-list">
+		
+	</ul>
+</div>
+
+<script id="products-data" type="text/x-handlebars-template">
+	<div id="product">
+		<h2 class="product-title">{{title}}</h2>
+		<img src="{{image}}">
+		{{#if sale}}
+			<h3>Price: $<strike>{{cost}}</strike> ${{sale}}</h3>
+		{{else}}
+			<h3>Price: ${{cost}}</h3>
+		{{/if}}
+		<ul>
+		{{#each details}}
+				<li><h3>{{@key}}:</h3> {{this}}</li>
+		{{/each}}
+		</ul>
+		<button class="wishit">add to wishlist</button>
+	</div>
+</script>
+
+<script id="wish-list-data" type="text/x-handlebars-template">
+	<li><span class="wish-remove">x</span> {{title}}</li>
+</script>
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>-->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+<script type="text/javascript" src="products-data.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
