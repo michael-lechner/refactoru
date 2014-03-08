@@ -1,0 +1,154 @@
+@font-face{
+	font-family: blade-runner;
+	src: url(bladerunner/BLADRMF_.TTF);
+}
+
+.body, html{
+	background-color: #95a5a6;
+}
+
+.blink{
+	color: #c0392b;
+}
+
+.container{
+	background-color: #95a5a6;
+}
+
+.header{
+	width: 100%;
+	font-family: blade-runner;
+	font-size: 75px;
+	color:  #f39c12;
+	text-shadow: 2px 2px rgba(255,255,255,.5);
+	background-color: #2980b9;
+	padding: 30px;
+	height: 135px;
+}
+
+.tag-line{
+	font-size: 30px;
+	font-family: helvetica;
+	margin-left: 300px; 
+	margin-top: -15px;
+	text-shadow: none;
+}
+
+.filters{
+	font-family: helvetica, sans-serif;
+	float: right;
+	font-size: 30px;
+	margin-right: 100px;
+	text-shadow: none;
+}
+
+.filters div{
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.filters div:hover{
+	margin-right: 30px;
+	display: inline-block;
+	color: #c0392b;
+}
+
+.menu-container{
+	width: 60%;
+	float: left;
+}
+
+.menu-categories{
+	list-style: none;
+	margin: 50px 40px;
+	background-color: #16a085;
+	text-align: center;
+	font-size: 50px;
+	font-family: blade-runner;
+	border-radius: 15px;
+	padding: 0px;
+}
+
+.menu-categories li{
+	width: 100%;
+	padding: 15px 0px;
+	
+}
+
+.menu-categories h3{
+	font-size: 50px;
+	margin: 20px 0px;
+}
+
+.order-container{
+	float: left;
+	background-color: #ecf0f1;
+	width: 25%;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.order-container h2{
+	font-family: blade-runner;
+	font-size: 40px;
+	/*height: 500px;*/
+
+}
+
+.order-container p{
+	float: left;
+	margin-right: 30px;
+}
+
+.name{
+	font-weight: bold;
+	color: #e74c3c;
+}
+
+.menu-section{
+	text-align: left;
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+	width: 90%;
+	background-color: #bdc3c7;
+	padding: 50px 5%;
+	display: none;
+	overflow: hidden;
+}
+
+.item-descrip{
+	float: left;
+	width: 75%;
+}
+
+.item-price{
+	text-align: right;
+	float: left;
+	width: 25%;
+	color: #c0392b;
+}
+
+.total-display{
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	color: #fff;
+	font-size: 50px;
+}
+
+.vegan{
+	color: #27ae60;
+}
+
+.gf{
+	color: #8e44ad;
+}
+
+.cf{
+	color: #f39c12;
+}
+
+
+

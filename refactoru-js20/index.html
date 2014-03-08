@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="steez.css">
+  <title>Demo</title>
+</head>
+<body>
+
+<div class="container">
+	
+	<div class="header"><span id="logo">eduardo's</span> <p class="tag-line">real freaking good</p>
+
+		<div class="filters">
+			<div class="filter-v">V</div>
+			<div class="filter-gf">GF</div>
+			<div class="filter-cf">CF</div>
+		</div>
+	</div>
+	<div class="menu-container">
+		<ul class="menu-categories">
+			<li>
+				<h3 class="menu-section-head">Burritos</h3>
+				<div class="menu-section" id="burrito">
+				</div>
+			</li>
+			<li>
+				<h3 class="menu-section-head">Tacos</h3>
+				<div class="menu-section" id="taco"></div>
+			</li>
+			<li>
+				<h3 class="menu-section-head">Nachos</h3>
+				<div class="menu-section" id="nacho"></div>
+
+			</li>
+			<li>
+				<h3 class="menu-section-head">Drinks</h3>
+				<div class="menu-section" id="drink"></div>
+			</li>
+		</ul>
+	</div>
+	<div class='total-display'><h2></h2></div>
+	<div class="order-container"><h2>Order</h2></div>
+        
+
+</div>
+
+	<script id="order" type="text/x-handlebars-template">
+		{{#each orderItem}}
+		<p class="order-name" data-price="{{this}}">{{@key}}</p><p class="order-price">${{this}}</p>
+		{{/each}}
+	</script>
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>-->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+<script src="utilities.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
