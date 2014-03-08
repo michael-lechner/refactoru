@@ -1,0 +1,33 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.country-container {
+  margin-top: 50px;
+}
+.country-container li {
+  margin-right: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+.search-list {
+  margin-top: 50px;
+}
+.search-list li {
+  margin-right: 20px;
+  list-style: none;
+  margin-top: 10px;
+}
+.travelled {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.travelled:hover {
+  color: #008000;
+  cursor: pointer;
+}
+.checked {
+  color: #008000;
+}

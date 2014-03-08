@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Ajax Countries
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-static-top
+        .navbar-header
+            button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a(href="#" ).navbar-brand AJAX Countries
+        .collapse.navbar-collapse.navbar-ex1-collapse
+            ul.nav.navbar-nav.navbar-right
+                li: a(href="#") Link
+    .container
+        block content
+
+
+
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+    script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js")
+    script(src='/javascripts/main.js')

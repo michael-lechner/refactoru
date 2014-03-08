@@ -1,0 +1,19 @@
+extends layout
+
+block content
+    .row
+        .col-sm-3
+              .btn.btn-primary.load-countries Load Countries 
+        .col-sm-6.pull-right
+            form.search-module
+                .form-group
+                    input.form-control.search-name(name="searchName", type="text", placeholder="Country Name")
+                .form-group
+                    .btn.btn-primary.search-countries Search        
+
+    .row
+        .col-sm-6.country-container
+            ul.country-list
+
+        .col-sm-6.search-result-container
+            ul.search-list
