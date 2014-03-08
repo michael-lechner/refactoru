@@ -1,0 +1,153 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-header{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #3498db;
+	color: #ecf0f1;
+	height: 100px;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+	box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+.main-header h2{
+	font-family: 'AudioWide';
+	font-size: 50px;
+	margin-top: 30px;
+	margin-left: 50px;
+	float: left;
+}
+
+.circle{
+	width: 50px;
+	height: 50px;
+	float: right;
+	background-color: #ecf0f1;
+	margin-right: 20px;
+	margin-top: 35px;
+	border-radius: 50px;
+}
+
+.circle.mid{
+	background-color: #2ecc71;
+}
+
+.circle.frst{
+	background-color: #9b59b6;
+}
+
+.list-main{
+	margin-top: 200px;
+	margin-right: 25%;
+	list-style-type: none;
+}
+
+.list-main h2{
+	cursor: pointer;
+	color: #7f8c8d;
+	font-size: 36;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.list-main h2:hover{
+	color: #2ecc71;
+}
+
+h2.active{
+	color: #9b59b6;
+}
+
+.delete{
+	cursor: pointer;
+	color: rgba(0,0,0,0.5);
+	float: right;
+	font-size: 20px;
+}
+
+.delete:hover{
+	color:rgba(0,0,0,1);
+}
+
+.new-event-but{
+	bottom: 0px;
+	border: none;
+	font-size: 14px;
+	float: right;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 100px;
+}
+
+.new-event-but:hover{
+	background-color: #2ecc71;
+	}
+
+.event-container{
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	background-color: #ecf0f1;
+	float: left;
+	display: none;
+}
+
+.event-container h3{
+	cursor: pointer;
+	float: left;
+	margin-right: 50px;
+	font-size: 14px;
+	color: #9b59b6;
+}
+
+.event-container p{
+	cursor: pointer;
+	float: left;
+	max-width: 75%;
+	font-size: 14px;
+	color: #2ecc71;
+}
+
+.event-container input{
+	width: 25%;
+	border: none;
+	float: left;
+	font-size: 14px;
+	color: #c0c0c0;
+	padding: 5px;
+}
+
+.event-container textarea{
+	margin-left: 50px;
+	width: 50%;
+	border: none;
+	font-size: 14px;
+	color: #c0c0c0;
+	padding: 5px;
+	margin-bottom: 78px;
+}
+
+.return-top-button{
+	cursor: pointer;
+	position: fixed;
+	font-family: helvetica, sans-serif;
+	bottom: 30px;
+	right: 40px;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	padding-top: 5px;
+	text-align: center;
+	color: #ecf0f1;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.return-top-button:hover{
+	color: #9b59b6;
+}
