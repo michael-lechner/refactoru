@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .row.video-list
+    .col-sm-12
+        for video in videos
+            .col-xs-4.video-item
+                ul
+                    li 
+                        h4 #{video.title} 
+                    li 
+                        iframe(width='300' height='215' src='#{video.url}' frameborder='0' allowfullscreen)
+                    li 
+                        p.descrip #{video.description}  

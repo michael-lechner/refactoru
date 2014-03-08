@@ -1,0 +1,40 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #ecf0f1;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.submit, .view{
+    margin: 10px 10px 10px 10px;
+}
+
+.submit-form{
+    margin-top: 75px;
+}
+
+.movie-img{
+    margin-top: 110px;
+    margin-left: 75px;
+}
+
+.video-list{
+    list-style: none;
+}
+
+.video-list li{
+    display: inline;
+    margin: 0px 20px 0px 0px;
+}
+
+.descrip{
+    margin: 20px 0px 0px 20px;
+    width: 400px;
+}
+
+.video-item h4{
+    color: #c0392b;
+}
+

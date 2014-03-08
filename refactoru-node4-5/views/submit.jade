@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .row
+    .col-sm-6
+        h2 New Video Submission
+        form(role='form' method='post' action='/view').submit-form
+            label Name
+            input(name='name').form-control
+            label URL
+            input(name='url').form-control
+            label Title
+            input(name='title').form-control
+            label Description
+            textarea(name='description').form-control
+            button.btn.btn-danger.submit.pull-right Submit
+    .col-sm-6
+        img(src='/images/Movies_256x256.png').movie-img
