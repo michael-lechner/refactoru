@@ -1,0 +1,237 @@
+html, body{
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+
+/*FORM*/
+.form-container{
+	-webkit-transition: left 1s;
+	position: fixed;
+	height: 100%;
+	width: 400px;
+	left: -320px;
+	background-color: #2c3e50;
+	float: left;
+}
+
+.form-container-out{
+	-webkit-transition: left 1s;
+	left: 0px;
+}
+
+
+.input-form{
+	margin-left: 40px;
+	margin-top: 100px;
+	color: #fff;
+	/*float: left;*/
+	width: 250px;
+
+}
+.input-form input{
+	width: 250px;
+}
+
+.input-form label{
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.input-form textarea{
+	width: 250px;
+	height: 100px;
+}
+
+.input-form button{
+	display: inline;
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+	width: 30%;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.input-form button:hover{
+	background-color: #2ecc71;
+}
+
+#cancel-button:hover{
+	background-color: #e67e22;
+}
+
+.action-button{
+	display: block;
+	margin: 10px 40px;
+	width: 250px;
+	height: 75px;
+	border: none;
+	background-color: #c0392b;
+	font-size: 18px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.action-button:hover{
+	background-color: #e74c3c;
+}
+
+.undo-button{
+	background-color: #e67e22;
+}
+
+.undo-button:hover{
+	background-color: #2ecc71;
+}
+
+.clear-lrg-margin{
+	clear: both;
+	margin-top: 150px;
+}
+
+/*CARDS*/
+
+.card-container-full{
+	-webkit-transition: left 1s;
+	position: absolute;
+	left: 80px;
+	right: 0px;
+	top: 0px;
+	float: left;
+	padding-left: 10px;
+}
+
+.card-container-form-out{
+	-webkit-transition: left 1s;
+	left: 400px;
+}
+
+.card {
+		-webkit-transition: left 10s;
+        float: left;
+        -webkit-perspective: 600px;
+        margin: 10px;
+}
+
+.primary, .secondary {
+        width: 250px;
+        height: 250px;
+        /*background: #CCC;*/
+        -webkit-transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        border-radius: 10px;
+}
+
+.primary {
+    overflow: hidden;
+    position: absolute;
+    background-color: #c0392b;
+    text-align: center;
+}
+
+.primary h2{
+	margin-top: 75px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: lighter;
+}
+
+.secondary {
+    padding: 20px;
+    width: 210px;
+    height: 210px;
+    background-color: #95a5a6;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transform: rotateY(90deg);
+}
+
+.card .primary{
+        transition: all 1.0s linear;
+}
+
+.card .secondary{
+        transition: all 1.0s linear;
+}
+
+.card:hover .primary{
+        -webkit-transform: rotateY(180deg);
+}
+
+.card:hover .secondary{
+        -webkit-transform: rotateY(360deg);
+}
+
+.secondary p{
+	padding-top: 20px;
+}
+
+.show-form{
+	float: right;
+	color: #fff;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	/*border-bottom: 2px solid #fff;*/
+}
+
+.show-form:hover{
+	color: #c0392b;
+}
+
+.show-form span{
+	float: right;
+	font-size: 36px;
+	margin-right: 15px;
+}
+
+.delete-card{
+	float: right;
+	font-size: 20px;
+	border: 2px solid #fff;
+	border-radius: 100px;
+	padding: 0px 7px 2px 7px;
+	margin-top: -10px;
+	margin-right: -5px;
+}
+
+.delete-card:hover{
+	border-color: #c0392b;
+	color: #c0392b;
+}
+
+.star-container{
+	position: absolute;
+	height: 20px;
+	bottom:	20px;
+}
+
+.rating{
+	float: left;
+	font-size: 18px;
+	color: #f1c40f;
+	padding-left: 3px;
+	bottom: 0px;
+}
+
+.author-filter{
+	float: left;
+	font-size: 20px;
+	border: 2px solid #fff;
+	border-radius: 100px;
+	padding: 2px 7px 2px 7px;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+     
+.author-filter:hover{
+	border-color: #c0392b;
+	color: #c0392b;
+}
+
