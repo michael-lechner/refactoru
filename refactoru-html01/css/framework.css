@@ -1,0 +1,44 @@
+/*
+        Starter page styles
+*/
+
+body {
+        margin: 0;
+        padding: 40px;
+        background-color: #EFEFEF;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+}
+
+#portfolio {
+        margin: 0;
+}
+
+.portfolio-item {
+        float: left;
+        -webkit-perspective: 600px;
+        margin: 10px;
+}
+
+.primary, .secondary {
+        width: 200px;
+        height: 200px;
+        background: #CCC;
+        -webkit-transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        border-radius: 10px;
+}
+
+.primary {
+        overflow: hidden;
+}
+
+.secondary {
+        padding: 20px;
+        width: 160px;
+        height: 160px;
+}
+
+.secondary h2 {
+        margin-top: 0px;
+}
