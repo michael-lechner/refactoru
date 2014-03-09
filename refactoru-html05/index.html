@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Design</title>
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="steez.css">
+</head>
+<body>
+	<div id="center-container">
+		<div id="main-container">
+
+			<nav>
+				<a href="#">home</a>
+				<a href="#">about</a>
+				<a href="#">products</a>
+				<a href="#">contact</a>
+			</nav>
+
+			<article>
+				<h2>Responsive Design</h2>
+
+				<p>Responsive Web design (RWD) is a Web design approach aimed at crafting sites to provide an optimal viewing experience reading and navigation with a minimum of resizing, panning, and scrolling a wide range of devices (from mobile phones to desktop computer monitors).</p>
+
+				<p>A site designed with RWD adapts the layout to the viewing environment by using fluid, proportion-based grids, flexible images, and CSS3 media queries, an extension of the @media rule.</p>
+				
+				<ul>
+					<li>The fluid grid concept calls for page element sizing to be in relative units like percentages, rather than absolute units like pixels or points.</li>
+					<li>Flexible images are also sized in relative units, so as to prevent them from displaying outside their containing element.</li>
+					<li>Media queries allow the page to use different CSS style rules based on characteristics of the device the site is being displayed on, most commonly the width of the browser.</li>
+					<li>Server-side components (RESS) in conjunction with client-side ones such as media queries can produce faster-loading sites for access over cellular networks and also deliver richer functionality/usability avoiding some of the pitfalls of device-side-only solutions.</li>
+				</ul>
+
+				<h3>Progressive enhancement based on browser-, device-, or feature-detection</h3>
+			
+				<p>Where a web site must support basic mobile devices that lack JavaScript, browser ("user agent") detection (also called "browser sniffing"), and mobile device detection are two ways of deducing if certain HTML and CSS features are supported (as a basis for progressive enhancement), these methods are not completely reliable unless used in conjunction with a device capabilities database.</p>
+
+				<p>For more capable mobile phones and PCs, JavaScript frameworks like Modernizr, jQuery, and jQuery Mobile that can directly test browser support for HTML/CSS features (or identify the device or user agent) are popular. Polyfills can be used to add support for features to support media queries (required for RWD), and enhance HTML5 support, on Internet Explorer. Feature detection also might not be completely reliable: some may report that a feature is available, when it is either missing or so poorly implemented that it is effectively nonfunctional.</p>
+			</article>
+
+			<div "gallery-container">
+				<img src="http://placehold.it/400x300" class="img-gallery">
+				<img src="http://placehold.it/400x300" class="img-gallery">
+				<img src="http://placehold.it/400x300" class="img-gallery">
+				<img src="http://placehold.it/400x300" class="img-gallery">
+				<img src="http://placehold.it/400x300" class="img-gallery">
+				<img src="http://placehold.it/400x300" class="img-gallery">
+			</div>	
+
+		</div>
+
+		<aside id="sidebar">
+			<ul>
+				<li>I'm a list item in a sidebar</li>
+				<li>I'm a list item in a sidebar</li>
+				<li>I'm a list item in a sidebar</li>
+				<li>I'm a list item in a sidebar</li>			
+			</ul>
+		</aside>
+		
+
+	</div>
+</body>
+</html>
