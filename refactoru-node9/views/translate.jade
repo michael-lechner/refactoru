@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    .container
+        .row.top-el
+            .col-sm-10
+                form.to-translate
+                    label.form-group Select language to translate to
+                    .form-group
+                        select.form-control.translate-lang 
+                            option(selected='selected' disabled='disabled') please select a language
+                            option(value='fra') french
+                            option(value='spa') spanish
+                            option(value='ara') arabic
+                            option(value='swe') swedish
+                            option(value='rus') russian
+                    .form-group
+                        label Enter a phrase you would like to translate
+                        textarea(text='phrases').form-control.translate-phrase
+                    .form-group
+                        .btn.btn-primary.get-translation translate
+            .col-sm-2.top-el
+
+
+        .row
+            .col-sm-10
+                    p.translate-display

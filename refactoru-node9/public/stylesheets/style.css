@@ -1,0 +1,38 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.word-display{
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+    height: 300px;
+    border: 1px solid rgba(149, 165, 166,1.0);
+    border-radius: 15px;
+}
+
+.word{
+    font-size: 75px;
+    margin: 50px 0px;
+    color: rgba(192, 57, 43,1.0);
+}
+
+.to-translate{
+    margin: 100px 0px 50px 0px
+}
+
+.top-el{
+    margin: 50px 0px 0px 0px;
+}
+
+.translate-display{
+    font-size: 40px;
+    color: rgba(192, 57, 43,1.0); 
+}
+
+.answer-submit{
+    margin: 0px 20px;
+}

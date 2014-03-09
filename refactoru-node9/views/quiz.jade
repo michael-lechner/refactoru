@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    .container
+        .row
+            .col-sm-10
+                .word-display
+        .row
+            .col-sm-10
+                form
+                    .form-group
+                        select.form-control.quiz-lang 
+                            option(selected='selected' disabled='disabled') 
+                                | please select a language you would like to study
+                            option(value='fra') french
+                            option(value='spa') spanish
+                            option(value='ara') arabic
+                            option(value='swe') swedish
+                            option(value='rus') russian                    
+                    .form-group
+                        input(placeholder='your translation').form-control.answer
+                    .form-group
+                        .col-sm-4.pull-left
+                            .btn.btn-primary.new-quiz New Quiz
+                        .col-sm-6.pull-right
+                            .btn.btn-primary.answer-submit.disabled Submit
+                            .btn.btn-primary.next-word.disabled Next
+

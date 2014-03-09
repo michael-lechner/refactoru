@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    title Translate It
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav(role="navigation").navbar.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                button(type="button", data-toggle="collapse", data-target=".navbar-ex1-collapse").navbar-toggle
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+            .collapse.navbar-collapse.navbar-ex1-collapse
+                ul.nav.navbar-nav.navbar-right
+                    li: a(href="/translate") Translate
+                    li: a(href="/quiz") Quiz
+                    li: a(href="#") Practice
+    block content
+
+
+
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
+    script(src='//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js')
+    script(src='/javascripts/main.js')
+
+
+
+
