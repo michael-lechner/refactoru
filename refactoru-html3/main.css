@@ -1,0 +1,110 @@
+/* ADD YOUR STYLES HERE */
+
+.data-table{
+	width: 100%;
+}
+
+.data-table tr, .data-table tr{
+	border-bottom: 1px solid #B4B0B5;
+}
+
+.data-table tr:last-child{
+	border-bottom: 0px solid #fff;
+}
+
+
+.data-table td, .data-table th{
+	padding: 10px 50px 10px 10px;
+}
+
+.stat-table{
+	border-top: 1px solid #B4B0B5;
+	border-bottom: 1px solid #B4B0B5;
+}
+
+.stat-table td{
+	padding: 30px 20px;
+}
+
+.num-prom{
+	font-weight: bold;
+	font-size: 34px;
+	text-align: center;
+}
+
+.lbl-sm{
+	color: #B4B0B5;
+	font-size: 14px;
+}
+
+.bar-table{
+	width: 100%;
+}
+
+.bar-table th{
+	width: 12%;
+	text-align: right;
+}
+
+.bar-table td{
+	padding-left: 10px;
+}
+
+.bar-table div{
+	background-color: #599EDE;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	font-size: 12px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+
+}
+
+/*.lightbox-background{
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #808080;
+	opacity: 0.97;
+}
+
+.lightbox-container{
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-top: 40%;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.lightbox-button{
+	background-color: #ED818A;
+	margin-left: 81%;
+	padding: 10px 40px;	
+	color: #fff;
+	font-weight: normal;
+	border-radius: 3px;
+}*/
+
+.media-ico{
+	float: left;
+	margin-right: 15px;
+}
+
+.media-desc{
+	float: left;
+	width: 90%;
+}
+
+
+
+
+
+
+
