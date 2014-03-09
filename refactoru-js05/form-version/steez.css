@@ -1,0 +1,52 @@
+.input-form{
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.help{
+	clear: both;
+}
+
+.clear{
+	clear both;
+}
+
+.p-list{
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.clear-table{
+	clear: both;
+}
+
+.clear-table-help{
+	clear: both;
+	margin-top: 10px;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid #c0c0c0;
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+	margin-top: -40px;
+}
+
+tbody{
+	visibility: hidden;
+}
+
+td{
+	border: 1px solid #c0c0c0;
+	padding: 15px;
+}
+
+tr{
+	border: 1px solid #c0c0c0;
+}

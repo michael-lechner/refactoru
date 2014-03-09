@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Victims and Volunteers</title>
+	<link rel="stylesheet" type="text/css" href="steez.css">
+</head>
+<body>
+
+<form class="input-form">
+	<fieldset>
+		<legend>Add a new victim</legend>
+		Full Name: <input type="text" id="full-name-victim"><br>
+		Phone Number: <input type="text" id="phone-num-victim"><br>
+		Street: <input type="text" id="street-victim"><br>
+		<button id="submit-victim">Submit Victim</button>
+	</fieldset>
+</form>
+<form class="input-form">
+	<fieldset>
+		<legend>Add a new volunteer</legend>
+		Full Name: <input type="text" id="full-name-vol"><br>
+		Phone Number: <input type="text" id="phone-num-vol"><br>
+		Street: <input type="text" id="street-vol"><br>
+		<button id="submit-vol">Submit Volunteer</button>
+	</fieldset>
+</form>
+<span class="clear"></span>
+<p id="victim-list" class="p-list"></p>
+<p id="volunteer-list" class="p-list"></p>
+<!-- <span class="clear"></span> -->
+<table class="clear-table">
+	<tr>
+		<td>Name</td>
+		<td>Phone</td>
+		<td>Street</td>
+	</tr>
+	<tbody id="victim-table"></tbody>
+</table>
+<table>
+	<tr>
+		<td>Name</td>
+		<td>Phone</td>
+		<td>Street</td>
+	</tr>
+	<tbody id="volunteer-table"></tbody>
+</table>
+<form class="input-form help">
+	<fieldset>
+		<Legend>Find Help</Legend>
+		Enter the name want to find help for: 
+			<input type="text" id="help-name">
+		<button id="submit-help-name">Submit Name</button>
+	</fieldset>
+</form>
+<table class="clear-table-help">
+	<tr>
+		<td>Name</td>
+	</tr>
+	<tbody id="help-table"></tbody>
+</table>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
