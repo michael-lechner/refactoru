@@ -1,0 +1,206 @@
+/* ADD YOUR STYLES HERE */
+
+/*why can't I use margin: auto;*/
+/*.space-horizon{
+	width: 100%;
+	margin: 0 auto;
+}*/
+
+/*.space-horizon *, .space-horizon:not li{
+	float: left;
+	padding-left: 50px;
+}
+*/
+
+.space-horizon img{
+	float: left;
+	padding-left: 50px;
+}
+
+.space-horizon p{
+	float: left;
+	padding-left: 50px;
+}
+
+.space-horizon ol{
+	float: left;
+	padding-left: 50px;
+}
+
+.space-vert{
+	display: table;
+	height: 300px;
+}
+
+.space-vert-cell{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.list-horizon{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-horizon li{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pink-button-lrg{
+	color: #fff;
+	text-decoration: none;
+	background-color: #ED828A;
+	padding: 20px 65px;
+	display: inline-block;
+	font-size: 26px;
+	border-radius: 5px;
+}
+
+.pink-button-med{
+	color: #fff;
+	text-decoration: none;
+	background-color: #ED828A;
+	padding: 10px 40px;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.pink-button-sm{
+	color: #fff;
+	text-decoration: none;
+	background-color: #ED828A;
+	padding: 5px 7px;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+input.pink-button-med{
+	border: none;
+}
+
+nav.list-horizon a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 50px;
+	display: inline-block;
+}
+
+nav.list-horizon a:hover{
+	color: #c0c0c0;
+}
+
+nav.list-horizon ul{
+	background-color: #ED828A;
+	border-radius: 5px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+
+ol.list-horizon{
+	height: 100px;
+}
+
+ol.list-horizon a{
+	color: #ED828A;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 10px;
+
+}
+
+ol.list-horizon li{
+	padding-bottom: 7px;
+	border-bottom: 3px solid #ED828A;
+	margin: 0px 5px;
+}
+
+ol.list-horizon li:first-child{
+	border-bottom: none;
+}
+
+ol.list-horizon li:last-child{
+	border-bottom: none;
+}
+
+#current-page{
+	color: #c0c0c0;
+	display: inline-block;
+	padding: 7px 10px;
+	border-bottom: 3px solid #c0c0c0;
+}
+
+.comment-container{
+	clear: left;
+	padding-top: 10px;
+}
+
+.img-container{
+	float: left;
+}
+
+.usr-container{
+	float: left;
+	margin-left: 10px;
+}
+
+.usr-container time{
+	color: #c0c0c0;
+	font-size: 12px;
+}
+
+.list-horizon-tab{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: visible;
+}
+
+.list-horizon-tab li{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	overflow: visible;
+}
+
+.tab{
+	display: inline-block;
+	border: 1px solid #A7AADF;
+	border-bottom: none;
+	margin-left: 10px;
+	padding: 5px 10px 5px 10px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	overflow: visible;
+}
+
+.list-horizon-tab a{
+	text-decoration: none;
+	color: #001FF4;
+	font-weight: bold;
+	font-size: 14px;
+	overflow: visible;
+}
+
+.main-content{
+	border: 1px solid #A7AADF;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+ul.list-horizon-tab li:nth-child(2) .tab{
+	position: relative;
+	border-bottom: 1px solid #fff;
+	top: 1px;
+	overflow: visible;
+}
+
+.tab{
+	position: relative;
+	top: 1px;
+}
