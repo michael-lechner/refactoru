@@ -1,0 +1,15 @@
+body{
+    background: #fff;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 20px;
+    color: red;
+}
+
+p{
+    text-align: center;
+}
