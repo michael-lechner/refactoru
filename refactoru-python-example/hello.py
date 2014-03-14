@@ -84,9 +84,16 @@ students = ['Becky', 'Carlsbad', 'Reynold']
 nameLengths = [len(s) for s in students]
 print nameLengths
 
+# exponential in line
+exponential = [i*i for i in range(10)]
+print exponential
 
+#map and filter
+expFilter = [i*i for i in range(100) if i%9 == 0]
+print expFilter
 
-
+#map and filter
+print([c for c in colors if not c == 'peachpuff'])
 
 
 
